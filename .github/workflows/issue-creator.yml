@@ -2,7 +2,7 @@ name: Create and close weekly Office Hours team meeting issue
 on:
   schedule:
   ## Wednesday of every week @ 00:00 UTC (Wednesday AEDT)
-  - cron: '30 22 * * TUE'
+  - cron: '00 23 * * TUE'
 jobs:
   find_old_issue:
     name: Find old team meeting issue
