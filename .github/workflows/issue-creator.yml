@@ -1,7 +1,7 @@
-name: Create and close weekly DCS team meeting issue
+name: Create and close weekly Office Hours team meeting issue
 on:
   schedule:
-  ## Wednesday of every week @ 00:00 UTC (Tuesday AEDT)
+  ## Wednesday of every week @ 00:00 UTC (Wednesday AEDT)
   - cron: '00 00 * * WED'
 jobs:
   find_old_issue:
@@ -41,4 +41,4 @@ jobs:
         LAST_WEEK_MEETING_ID: ${{needs.find_old_issue.outputs.meeting_id}}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        filename: .github/ISSUE_TEMPLATE/auto-weekly/team-meeting.md
+        filename: .github/ISSUE_TEMPLATE/auto-weekly/officehours-meeting.md
