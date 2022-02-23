@@ -1,19 +1,18 @@
 ---
-Name: Supportability Office Hours
-Title: "Supportability Office Hours - {{ date | date('add', 6, 'days') | date('dddd, MMMM Do, YYYY') }}"
+name: Supportability Office Hours
+title: "Supportability Office Hours - {{ date | date('add', 6, 'days') | date('dddd, MMMM Do, YYYY') }}"
 labels: "Supportability Office Hours"
 assignees:
   - griffineng
-
 ---
 
-What's up 👋  What happened? What's about to happen? What's going on in your head? 
+What's up :wave:  What happened? What's about to happen? What's going on in your head? 
 
-## Topics 📝  
+## Topics :memo:  
 - 
 
-## Blockers ❌ 
+## Blockers :x: 
 -
 
 
-💁 Last weeks meeting: #{{ env.LAST_WEEK_MEETING_ID }}
+:information_desk_person: Last weeks meeting: #{{ env.LAST_WEEK_MEETING_ID }}
