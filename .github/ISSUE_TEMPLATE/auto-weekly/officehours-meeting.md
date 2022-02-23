@@ -1,6 +1,6 @@
 ---
 name: Supportability Office Hours
-title: "Supportability Office Hours - {{ date | date('add', 6, 'days') | date('dddd, MMMM Do, YYYY') }}"
+title: "Supportability Office Hours - {{ date | date('add', 7, 'days') | date('dddd, MMMM Do, YYYY') }}"
 labels: "Supportability Office Hours"
 assignees:
   - griffineng
