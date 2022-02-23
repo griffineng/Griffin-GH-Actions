@@ -16,7 +16,7 @@ jobs:
       - id: checkout
         uses: actions/checkout@v2
       - id: meeting
-        run: echo "::set-output name=issue_id::$(gh issue list -s open -l 'meeting' --json number -q '.[0].number')"
+        run: echo "::set-output name=issue_id::$(gh issue list -s open -l 'Supportability Office Hours' --json number -q '.[0].number')"
 
   close_old_issue:
     name: Close old team meeting issue
