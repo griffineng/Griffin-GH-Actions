@@ -20,7 +20,7 @@ Weekly sync between Support Squad Captain (SC) and Supportability Program Manage
 ### Topics
 -
 
-### Action Items/Notes for February 23, 2022
+### Action Items/Notes
 -
 
 :information_desk_person: Last weeks meeting: #{{ env.LAST_WEEK_MEETING_ID }}
