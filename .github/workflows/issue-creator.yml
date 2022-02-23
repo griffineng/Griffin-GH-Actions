@@ -1,8 +1,9 @@
 name: Create and close weekly Office Hours team meeting issue
 on:
-  schedule:
+  workflow_dispatch
+  ##schedule:
   ## Wednesday of every week @ 00:00 UTC (Wednesday AEDT)
-  - cron: '15 00 * * WED'
+  ##- cron: '15 00 * * WED'
 jobs:
   find_old_issue:
     name: Find old team meeting issue
